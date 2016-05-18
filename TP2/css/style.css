@@ -6,7 +6,7 @@
 	height: 75px;
 }
 
-#menu{
+#menu li{
 	display: inline-block;
 	top: 25px;
 	right: 25px;
