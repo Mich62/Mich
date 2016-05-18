@@ -1,13 +1,46 @@
-#logo{
-	border: 1px;
-	margin-left: 20px;
-	margin-top: 10px;
-	width: 100px;
-	height: 75px;
+*{
+	background-color: #7f8c8d;
 }
 
-#menu li{
+#logo{
+	border: 2px solid;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 20%;
+	height: 15%%;
+}
+
+#menu{
+	line-height: 1;
+	height: 1;
+	vertical-align: top;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li a{
 	display: block;
-	position: relative;
 	float: right;
+	width: 10%;
+	background-color: grey;
+	color: black;
+	text-align: center;
+	border: 2px solid;
+}
+
+ul li input{
+	display: block;
+	float: right;
+	width: 10%;
+	background-color: grey;
+	color: black;
+	text-align: center;
+	border: 2px solid;
+}
+
+ul li a:hover{
+	background-color: orange;
+	border-color: black;
 }
