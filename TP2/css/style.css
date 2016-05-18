@@ -1,46 +1,61 @@
 *{
-	background-color: #7f8c8d;
+	background-color: #003333;
 }
 
 #logo{
 	border: 2px solid;
 	margin-left: 20px;
-	margin-top: 10px;
 	width: 20%;
 	height: 15%%;
+	position: relative;
+	z-index: 10;
 }
 
-#menu{
-	line-height: 1;
-	height: 1;
+#menu ul{
+	padding:0;
+	margin-left: 42%;
+	margin-top: 50px;
+	list-style-type:none;
+	display: inline-block;
 	vertical-align: top;
 }
 
-ul{
-	list-style-type: none;
+#menu ul li{
+	display: inline-block;	
+	border-left:1px solid black;
 }
 
-ul li a{
-	display: block;
-	float: right;
-	width: 10%;
-	background-color: grey;
-	color: black;
-	text-align: center;
-	border: 2px solid;
+#menu ul li a{
+	display:block;
+	float:left;   
+	width:100px;
+	line-height:50px;
+	color: white;
+	text-decoration:none;
+	text-align:center;
+	background-color: black;
 }
 
-ul li input{
-	display: block;
-	float: right;
-	width: 10%;
-	background-color: grey;
-	color: black;
-	text-align: center;
-	border: 2px solid;
+#menu ul li input{
+	background-color: black;
+	display:block;
+	float:left;   
+	width:100px;
+	line-height:50px;
+	color:white;
+	text-decoration:none;
+	text-align:center;
 }
 
-ul li a:hover{
-	background-color: orange;
-	border-color: black;
+#menu ul li a:hover{
+	background-color: black;
+	color:white;
+}
+
+h1{
+	color: white;
+}
+
+p{
+	color: white;
 }
