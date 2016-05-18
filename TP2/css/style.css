@@ -7,7 +7,7 @@
 }
 
 #menu li{
-	display: inline-block;
-	top: 25px;
-	right: 25px;
+	display: block;
+	position: relative;
+	float: right;
 }
