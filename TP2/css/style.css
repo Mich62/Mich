@@ -61,6 +61,11 @@ h3{
 	background-color: #006B5D;
 }
 
+h2{
+	color: white;
+	background-color: #006B5D;
+}
+
 p{
 	color: white;
 }
@@ -106,4 +111,37 @@ p{
 	background-color: #006B5D;
 	border-radius: 15px;
 	margin-top: 20px;
+}
+
+.gauche{
+	width: 45%;
+	float:left; 
+	margin-bottom: 10px;
+}
+
+.droit{
+	width:45%;
+	float:right;
+	margin-bottom: 10px;
+}
+
+
+@media only screen and (max-device-width:480px){
+	#menu ul{
+		display: none;
+	}
+  
+	#images div{
+		width:95% !important;
+	}
+	
+	#gmp, #formulaire{
+		width: 98%;
+	}
+	
+	img{
+		display: block;
+		margin-top: -50px;
+	}
+	
 }

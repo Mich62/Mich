@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" media="screen and (max-width:340px)" href="css/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript"src="js/jquery.js"></script>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
 		<title> Wikibinouze </title> 
 	</head>
 	
@@ -56,18 +59,27 @@
 			</div>
 		</div>
 		
-		<div class="cadre" id="formulaire">
-			<div id="gmp">
-			
+		<div id="form">
+			<div class="cadre"> 
+				<div id="gmp" class="gauche">
+					<h2> Où se trouve la fête de la bière </h2>
+					<div id="map_canvas">
+				</div>
 			</div>
-			<div id="formulaire">
-				<h3> Participons à la fête de la bière de Munich !! </h3>
-				<form>
-					<input type="text" name="Prénom" placeholder="Prénom"/>
-					<input type="text" name="Nom" placeholder="Nom"/>
-					<input type="date" name="date" placeholder="Date de naissance"/>
-					<input type="text" name="Ville" placeholder="Ville"/>
-				</form>
+			<div id="formulaire" class="droit">
+				<div class="cadre">
+					<h2> Participons à la fête de la bière de Munich !! </h2>
+					<form>
+						<input type="text" name="Prénom" placeholder="Prénom" class="gauche"/>
+						<input type="text" name="Nom" placeholder="Nom" class="droit"/>
+						<input type="date" name="date" placeholder="Date de naissance" class="gauche"/>
+						<input type="text" name="Ville" placeholder="Ville" class="droit"/>
+						<input type="text" name="Mail" placeholder="Adresse@Mail.fr"/></br>
+						<input type="file" name="photo" placeholder="photo" id="full"/></br>
+						<textarea name="message" placeholder="message"></textarea></br>
+						<input type="submit" name="envoyer" value="envoyer" id="bouton"/>
+					</form>
+				</div>
 			</div>
 		</div>
 		
