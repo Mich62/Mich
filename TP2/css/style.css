@@ -6,7 +6,7 @@
 	border: 2px solid;
 	margin-left: 20px;
 	width: 20%;
-	height: 15%%;
+	height: 15%;
 	position: relative;
 	z-index: 10;
 }
@@ -14,7 +14,7 @@
 #menu ul{
 	padding:0;
 	margin-left: 42%;
-	margin-top: 50px;
+	margin-top: 5%;
 	list-style-type:none;
 	display: inline-block;
 	vertical-align: top;
