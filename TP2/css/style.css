@@ -125,6 +125,32 @@ p{
 	margin-bottom: 10px;
 }
 
+#map_canvas{
+		width: 99%;
+		height: 250px;
+}
+
+@media only screen and (max-device-width:800px){
+  #logo{
+    margin-left:40%;
+    margin-right:40%;
+  }
+  #menu ul li a{
+    width: 100%;
+  }
+  #menu li{
+    width:25%;
+  }
+  #menu a{
+    font-size: 10px;
+  }
+  #menu input{
+    width:100%;
+  }
+  #images div{
+    width: 49%;
+  }
+}
 
 @media only screen and (max-device-width:480px){
 	#menu ul{
