@@ -132,8 +132,7 @@ p{
 
 @media only screen and (max-device-width:800px){
   #logo{
-    margin-left:40%;
-    margin-right:40%;
+    margin: auto;
   }
   #menu ul li a{
     width: 100%;
