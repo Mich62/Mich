@@ -157,9 +157,6 @@ p{
 }
 
 @media only screen and (max-device-width:480px){
-	#menu ul{
-		display: none;
-	}
   
 	#images div{
 		width:95%;
