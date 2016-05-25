@@ -131,24 +131,29 @@ p{
 }
 
 @media only screen and (max-device-width:800px){
-  #logo{
-    margin: auto;
-  }
-  #menu ul li a{
-    width: 100%;
-  }
-  #menu li{
-    width:25%;
-  }
-  #menu a{
-    font-size: 10px;
-  }
-  #menu input{
-    width:100%;
-  }
-  #images div{
-    width: 49%;
-  }
+	#logo{
+		margin: auto;
+	}
+	
+	#menu ul li a{
+		width: 100%;
+	}
+	
+	#menu li{
+		width:25%;
+	}
+	
+	#menu a{
+		font-size: 10px;
+	}
+	
+	#menu input{
+		width:100%;
+	}
+	
+	#images div{
+		width: 49%;
+	}
 }
 
 @media only screen and (max-device-width:480px){
@@ -166,6 +171,7 @@ p{
 	
 	img{
 		display: block;
+		margin-top: -50px;
 	}
 	
 }
