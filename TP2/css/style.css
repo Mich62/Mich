@@ -135,10 +135,10 @@ p{
     margin: auto;
   }
   #menu ul li a{
-    width: 10%;
+    width: 100%;
   }
   #menu li{
-    width:24%;
+    width:25%;
   }
   #menu a{
     font-size: 10px;
@@ -157,7 +157,7 @@ p{
 	}
   
 	#images div{
-		width:95% !important;
+		width:95%;
 	}
 	
 	#gmp, #formulaire{
