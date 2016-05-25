@@ -153,7 +153,6 @@ p{
 @media only screen and (max-device-width:480px){
 	#menu{
 		width: 95%;
-		margin: auto;
 	}
   
 	#images div{
@@ -162,6 +161,14 @@ p{
 	
 	#gmp, #formulaire{
 		width: 95%;
+	}
+	
+	.gauche{
+		width: 48%;
+	}
+
+	.droit{
+		width:48%;
 	}
 	
 }
