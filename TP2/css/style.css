@@ -12,8 +12,6 @@
 }
 
 #menu ul{
-	padding:0;
-	margin-left: 42%;
 	margin-top: 5%;
 	list-style-type:none;
 	display: inline-block;
@@ -139,10 +137,6 @@ p{
 		width: 100%;
 	}
 	
-	#menu li{
-		width:25%;
-	}
-	
 	#menu a{
 		font-size: 10px;
 	}
@@ -157,6 +151,9 @@ p{
 }
 
 @media only screen and (max-device-width:480px){
+	#menu{
+		width: 95%;
+	}
   
 	#images div{
 		width:95%;
@@ -164,11 +161,6 @@ p{
 	
 	#gmp, #formulaire{
 		width: 95%;
-	}
-	
-	img{
-		display: block;
-		margin-top: -50px;
 	}
 	
 }
