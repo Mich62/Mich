@@ -1,4 +1,4 @@
-*{
+body{
 	background-color: #003333;
 }
 
@@ -126,6 +126,7 @@ p{
 #map_canvas{
 		width: 99%;
 		height: 250px;
+		z-index: 10;
 }
 
 @media only screen and (max-device-width:800px){
