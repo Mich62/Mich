@@ -153,6 +153,7 @@ p{
 @media only screen and (max-device-width:480px){
 	#menu{
 		width: 95%;
+		margin: auto;
 	}
   
 	#images div{
